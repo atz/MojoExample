@@ -1,2 +1,2 @@
 #!/bin/sh
-./script/mojo_full daemon --listen http://*:$PORT
+./script/mojo_full.pl daemon --listen http://*:$PORT
