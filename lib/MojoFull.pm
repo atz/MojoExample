@@ -10,6 +10,9 @@ has schema => sub {
 sub startup {
   my $self = shift;
 
+  # Reads from mojo_full.conf
+  $self->plugin('Config');
+
   $self->helper(db => sub { $self->app->schema });
 
   # Routes

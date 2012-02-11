@@ -1,2 +1,2 @@
 #!/bin/sh
-hypnotoad script/mojo_full --listen http://*:$PORT
+/app/vendor/perl-deps/bin/hypnotoad --foreground script/mojo_full
