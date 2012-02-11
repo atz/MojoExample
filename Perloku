@@ -1,2 +1,2 @@
 #!/bin/sh
-./script/mojo_full.pl daemon --listen http://*:$PORT
+hypnotoad script/mojo_full --listen http://*:$PORT
