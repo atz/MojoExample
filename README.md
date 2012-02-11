@@ -13,7 +13,7 @@
 - The DBIx::Class schema connects to a provided sqlite3 database, test.db
 - The controller tests create a new test.db, populated using fixtures from t/fixtures/*
 - The schema tests use an in-memory sqlite3 database, populated using fixtures
-  from t/fixtures
+  from t/fixtures/*
 - Test::Database is a utility for populating the sqlite3 databases with
   fixtures from t/fixtures/*
 
@@ -22,7 +22,7 @@
 
 Easy, one-step installation of modules:
 <br />
-`curl -L cpanmin.us | perl - Mojolicious Modern::Perl DBIx::Class DateTime Time::Duration`
+`curl -L cpanmin.us | perl - Mojolicious Modern::Perl DBIx::Class DateTime DateTime::Format::SQLite Time::Duration`
 
 A minimum of Perl 5.10 is required.  If your Perl is too old, <a href="http://perlbrew.pl/">Perlbrew</a> is über easy to install!
 
